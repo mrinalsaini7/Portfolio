@@ -1,144 +1,120 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio: Mrinal Saini | Personal Profile</title>
+  <meta name="description" content="Mrinal Saini — B.Tech Computer Science Engineering student portfolio.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Mrinal Saini | Student Developer Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="chatbot.css">
 </head>
 <body>
   <header class="site-header" id="home">
-    <h1>Mrinal Saini</h1>
-    <p class="tagline">B.Tech Computer Science Engineering student.</p>
+    <div class="nav-wrap">
+      <a class="brand" href="#home" aria-label="Mrinal Saini home">MS<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#weather">Weather</a>
+        <a href="#aiChatSection">Ask Assistant</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle color theme">☾ <span>Dark mode</span></button>
+    </div>
 
-    <nav aria-label="Main navigation">
-      <a href="#home">Home</a> |
-      <a href="#about">About Me</a> |
-      <a href="#skills">Skills</a> |
-      <a href="#projects">Projects</a> |
-      <a href="#contact">Contact Information</a>
-    </nav>
-
-    <!-- Replace profile.jpg with your photograph's filename -->
-    
-    <div class="profile-container">
-    <img
-      src="profile.jpg"
-      alt="Mrinal Saini"
-      class="profile-photo"
-    >
-  </div>
+    <div class="hero page-width">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE ENGINEERING STUDENT</p>
+        <h1>Hi, I'm <span>Mrinal Saini.</span></h1>
+        <p class="hero-subtitle">Aspiring software developer building practical projects and strengthening problem-solving skills.</p>
+        <p class="hero-description">I’m a B.Tech Computer Science Engineering student interested in software development, web technologies, and learning by building.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my projects <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-tags"><span>Problem solving</span><span>Web development</span><span>Continuous learning</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Profile image area">
+        <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+        <div class="profile-frame">
+          <img src="profile.jpg" alt="Mrinal Saini" class="profile-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <div class="profile-fallback" aria-hidden="true">MS</div>
+        </div>
+        <div class="floating-card floating-top"><span class="mini-icon">⌘</span><span><strong>Curious mind</strong><small>Always learning</small></span></div>
+        <div class="floating-card floating-bottom"><span class="mini-icon">✦</span><span><strong>Build · Learn · Improve</strong><small>One project at a time</small></span></div>
+      </div>
+    </div>
   </header>
 
-  <main>
-    <section id="about" aria-labelledby="about-heading">
-      <h2 id="about-heading">About Me</h2>
-      <p>
-        I’m a B.Tech Computer Science Engineering student with a strong interest in software development, web technologies, and problem-solving. I enjoy building practical projects, learning new technologies, and continuously improving my technical skills. I’m looking forward to applying my knowledge to real-world challenges and growing as a software developer.
-      </p>
-      
+  <main class="page-width">
+    <section id="about" class="section-block">
+      <div class="section-heading"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Learning today. <span>Building for tomorrow.</span></h2></div>
+      <div class="about-card">
+        <div class="about-mark">01 <span>/ ABOUT</span></div>
+        <div><p>I’m a B.Tech Computer Science Engineering student with a strong interest in software development, web technologies, and problem-solving. I enjoy building practical projects, learning new technologies, and continuously improving my technical skills. I’m looking forward to applying my knowledge to real-world challenges and growing as a software developer.</p>
+        <p class="muted">This portfolio brings together my current skills, projects, and a few useful interactive features.</p></div>
+      </div>
     </section>
 
-    <section id="skills" aria-labelledby="skills-heading">
-      <h2 id="skills-heading">Skills</h2>
-      <ul>
-        <li>C</li>
-        <li>C++</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Python</li>
-      </ul>
+    <section id="skills" class="section-block">
+      <div class="section-heading"><p class="eyebrow">WHAT I'M LEARNING</p><h2>My <span>skills</span></h2><p class="section-intro">Select any skill to see related projects. If I don't have a matching project listed yet, the portfolio will tell you.</p></div>
+      <div class="skills-grid" role="list" aria-label="Clickable skills">
+        <button class="skill-card" type="button" data-skill="C"><span class="skill-symbol">C</span><span><strong>C</strong><small>Programming fundamentals</small></span><span class="skill-arrow">↗</span></button>
+        <button class="skill-card" type="button" data-skill="C++"><span class="skill-symbol">C++</span><span><strong>C++</strong><small>Object-oriented programming</small></span><span class="skill-arrow">↗</span></button>
+        <button class="skill-card" type="button" data-skill="HTML"><span class="skill-symbol">&lt;/&gt;</span><span><strong>HTML</strong><small>Web page structure</small></span><span class="skill-arrow">↗</span></button>
+        <button class="skill-card" type="button" data-skill="CSS"><span class="skill-symbol">#</span><span><strong>CSS</strong><small>Styling and layouts</small></span><span class="skill-arrow">↗</span></button>
+      </div>
+      <p class="skill-hint"><span aria-hidden="true">↗</span> Click a skill to filter the project list.</p>
     </section>
 
-    <section id="projects" aria-labelledby="projects-heading">
-      <h2 id="projects-heading">Projects</h2>
-      <ul class="projects">
-        <li>
-          <a href="https://github.com/mrinalsaini7/Python-Program-Collection
-          ">Python Programm Collection</a>
-          <p>A collection of Python programming projects focused on building strong programming fundamentals and problem-solving skills. Includes projects on Factorial, Fibonacci Series, and basic Python program structure, making it ideal for beginners to practice and improve their coding skills.</p>
-        </li>
-
-        <li>
-          <a href="https://studentreadinglist-nine.vercel.app/
-          ">Code with AI Quiz</a>
-          <p>An interactive quiz website designed to test your knowledge, improve learning, and make practicing fun. Built using HTML, CSS, and JavaScript with a simple and user-friendly interface.</p>
-        </li>
-
-        <li>
-          <a href="https://quiz-rouge-zeta.vercel.app/">Book Reading List Application</a>
-          <p>A simple and responsive Student Reading List web app that helps you organize your books, track reading progress, and manage reading statuses such as Want to Read, Reading, and Finished. Built with a clean interface for a smooth and enjoyable reading experience..</p>
-        </li>
-      </ul>
-
-     
+    <section id="projects" class="section-block">
+      <div class="section-heading project-heading"><div><p class="eyebrow">SELECTED WORK</p><h2>Projects I've <span>worked on</span></h2></div><button id="clearSkillFilter" class="text-button" type="button" hidden>Show all projects ×</button></div>
+      <p id="projectFilterStatus" class="filter-status" aria-live="polite">Showing all projects.</p>
+      <div class="projects-grid" id="projectGrid">
+        <article class="project-card" data-project-skills="Python">
+          <div class="project-top"><span class="project-number">PROJECT / 01</span><span class="project-icon">⌘</span></div>
+          <div class="project-art art-python"><span>PY</span><span class="art-caption">PROGRAMMING COLLECTION</span></div>
+          <div class="project-content"><div class="project-tags"><span>Python</span><span>Fundamentals</span></div><h3>Python Program Collection</h3><p>A collection of Python programming exercises focused on fundamentals and problem-solving, including Factorial, Fibonacci Series, and basic program structure.</p><a href="https://github.com/mrinalsaini7/Python-Program-Collection" target="_blank" rel="noopener noreferrer" class="project-link">View project <span>↗</span></a></div>
+        </article>
+        <article class="project-card" data-project-skills="HTML,CSS,JavaScript">
+          <div class="project-top"><span class="project-number">PROJECT / 02</span><span class="project-icon">✳</span></div>
+          <div class="project-art art-quiz"><div class="quiz-mini"><span>QUICK QUIZ</span><strong>Test your<br>knowledge.</strong><i></i><i></i><i></i></div></div>
+          <div class="project-content"><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><h3>Code with AI Quiz</h3><p>An interactive quiz website designed to test knowledge and make practice engaging, with a simple and user-friendly interface.</p><a href="https://quiz-rouge-zeta.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link">View project <span>↗</span></a></div>
+        </article>
+        <article class="project-card" data-project-skills="HTML,CSS,JavaScript">
+          <div class="project-top"><span class="project-number">PROJECT / 03</span><span class="project-icon">▤</span></div>
+          <div class="project-art art-reading"><div class="book-stack"><span>READ</span><b>01</b><b>02</b><b>03</b></div><span class="art-caption">YOUR NEXT CHAPTER</span></div>
+          <div class="project-content"><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><h3>Book Reading List Application</h3><p>A responsive reading-list app for organizing books and tracking statuses such as Want to Read, Reading, and Finished.</p><a href="https://studentreadinglist-nine.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link">View project <span>↗</span></a></div>
+        </article>
+      </div>
+      <div id="projectNotFound" class="not-found" hidden><span class="not-found-icon">⌕</span><h3>No matching project found</h3><p>There isn't a project tagged with this skill yet. Check back as this portfolio grows.</p></div>
     </section>
 
-    <section id="weather">
-      <h2>Weather</h2>
+    <section id="weather" class="section-block">
+      <div class="section-heading"><p class="eyebrow">A USEFUL LITTLE TOOL</p><h2>Check the <span>weather</span></h2><p class="section-intro">Get the current temperature and conditions for a city.</p></div>
+      <div class="weather-card"><div class="weather-intro"><span class="weather-symbol">☀</span><h3>Weather at a glance</h3><p>Enter a city name to see its current conditions.</p></div>
+        <form id="weatherForm" class="weather-form"><label for="cityInput">City name</label><div class="input-row"><input type="text" id="cityInput" placeholder="e.g. Jaipur" autocomplete="address-level2" required><button id="weatherButton" class="button button-primary" type="submit">Get weather <span>→</span></button></div></form>
+        <div id="weatherResult" class="weather-result" aria-live="polite">Your weather details will appear here.</div>
+      </div>
+    </section>
 
-      <input
-        type="text"
-        id="cityInput"
-        placeholder="Enter a city"
-      >
-
-      <button id="weatherButton">Get Weather</button>
-
-      <div id="weatherResult">
-        Enter a city to see the weather.
+    <section id="aiChatSection" class="section-block">
+      <div class="section-heading"><p class="eyebrow">LET'S TALK</p><h2>Ask my <span>assistant</span></h2><p class="section-intro">Ask about this portfolio, listed skills, projects, or contact details.</p></div>
+      <div class="assistant-card"><div class="assistant-head"><div class="assistant-avatar">MS<span>•</span></div><div><h3>Portfolio Assistant</h3><p><span class="status-dot"></span> Ready to help</p></div><span class="assistant-label">LOCAL DEMO</span></div>
+        <div id="chatMessages" class="chat-messages" aria-live="polite"><div class="chat-bubble assistant-message">Hi! Ask me about Mrinal's skills, projects, or how to get in touch.</div></div>
+        <form id="chatForm" class="chat-controls"><label class="sr-only" for="userInput">Your question</label><input type="text" id="userInput" placeholder="Ask a question..." autocomplete="off" required><button id="sendButton" type="submit" class="button button-primary">Send ↗</button></form>
+        <p id="chatStatus" class="chat-note" role="status">This is a built-in demo assistant with preset answers, not a connected generative AI service.</p>
       </div>
     </section>
   </main>
-  <section id="aiChatSection" class="ai-chat">
-    <h2>Ask My AI Assistant</h2>
-  
-    <p>
-      Ask questions about this portfolio,
-      projects, and technologies.
-    </p>
-  
-    <div
-      id="chatMessages"
-      aria-live="polite"
-    ></div>
-  
-    <div class="chat-controls">
-      <input
-        type="text"
-        id="userInput"
-        placeholder="Ask a question..."
-      />
-  
-      <button id="sendButton" type="button">
-        Send
-      </button>
-    </div>
-  
-    <p id="chatStatus" role="status"></p>
-  
-    <p class="chat-note">
-      AI chat is available during the local
-      classroom demonstration only.
-    </p>
-  </section>
 
   <footer class="site-footer" id="contact">
-    <h2>Contact Information</h2>
-    <p>Email:
-      <a href="mailto:mrinalsaini216613@gmail.com">mrinalsaini216613@gmail.com</a>
-    </p>
-    <p>GitHub:
-      <a href="https://github.com/mrinalsaini7" target="_blank" rel="noopener noreferrer">mrinalsaini7</a>
-    </p>
+    <div class="footer-inner page-width"><div><a class="brand footer-brand" href="#home">MS<span>.</span></a><p>Student developer. Always learning, always building.</p></div><div class="footer-contact"><p class="eyebrow">CONTACT</p><a href="mailto:mrinalsaini216613@gmail.com">mrinalsaini216613@gmail.com</a><a href="https://github.com/mrinalsaini7" target="_blank" rel="noopener noreferrer">GitHub · mrinalsaini7 ↗</a></div></div>
+    <div class="footer-bottom page-width"><span>© <span id="currentYear"></span> Mrinal Saini</span><a href="#home">Back to top ↑</a></div>
   </footer>
 
-  <button id="themeToggle">Switch to Dark Mode</button>
-
   <script src="script.js"></script>
-  <script src="config.js"></script>
-<script src="chatbot.js"></script>
 </body>
 </html>
