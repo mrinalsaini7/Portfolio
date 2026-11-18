@@ -1,6 +1,8 @@
+<img width="1920" height="1080" alt="Screenshot 2026-11-16 101353" src="https://github.com/user-attachments/assets/5bbb5b22-eeca-4f6a-a603-e7f57607cf6a" />
 # Portfolio
 Personal Portfolio Web Application
 A modern, responsive personal portfolio website showcasing academic background, core technical skills, featured projects, a real-time weather widget, and an interactive AI chat assistant.
+You can visit my portfolio website on:https://portfolio-eight-pi-btvt1veq3d.vercel.app/
 
 ✨ Features
 Responsive Header & Navigation: Clean introduction with profile image and smooth anchor-tag navigation across sections.
