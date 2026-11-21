@@ -1,49 +1,139 @@
-<img width="1920" height="1080" alt="Screenshot 2026-11-16 101353" src="https://github.com/user-attachments/assets/5bbb5b22-eeca-4f6a-a603-e7f57607cf6a" />
-# Portfolio
-Personal Portfolio Web Application
-A modern, responsive personal portfolio website showcasing academic background, core technical skills, featured projects, a real-time weather widget, and an interactive AI chat assistant.
-You can visit my portfolio website on:https://portfolio-eight-pi-btvt1veq3d.vercel.app/
+# 👨‍💻 Mrinal Saini | Student Developer Portfolio
 
-✨ Features
-Responsive Header & Navigation: Clean introduction with profile image and smooth anchor-tag navigation across sections.
+<img width="100%" alt="Portfolio Website Preview" src="https://github.com/user-attachments/assets/5bbb5b22-eeca-4f6a-a603-e7f57607cf6a" />
 
-About Me Section: Professional summary highlighting academic status as a B.Tech Computer Science Engineering student.
+A modern, responsive, and interactive personal portfolio website showcasing my journey as a Computer Science Engineering student, technical skills, projects, and interests in software development.
 
-Skills Showcase: Displays core programming languages and web technologies (C, C++, HTML, CSS, Python).
+🌐 **Live Website:** [Visit My Portfolio](https://portfolio-eight-pi-btvt1veq3d.vercel.app/)
 
-Featured Projects: Curated list of web applications and programming collections with live links and descriptions.
+## 🚀 About Me
 
-Interactive Weather Widget: Search-based city weather lookup functionality.
+Hi, I'm **Mrinal Saini**, a B.Tech Computer Science Engineering student passionate about software development, web technologies, and problem-solving.
 
-AI Chat Assistant Widget: Interactive chatbot section enabling visitors to ask questions about the portfolio and technologies.
+I enjoy building practical projects, exploring new technologies, and continuously improving my programming skills.
 
-Dark Mode Toggle: Dynamic theme switcher for enhanced user accessibility and experience.
+This portfolio represents my learning journey, technical abilities, and projects.
 
-🛠️ Tech Stack
-Markup: HTML5 (Semantic Structure)
+## ✨ Features
 
-Styling: CSS3 (style.css, chatbot.css)
+- **Modern Home Section:** Professional introduction with a clean and attractive interface.
+- **About Me:** Information about my academic background, interests, and development journey.
+- **Interactive Skills Section:** Click on any skill to explore related projects.
+- **Projects Showcase:** Displays my programming and web development projects with descriptions and live links.
+- **Weather Application:** Search for a city and view its current weather conditions.
+- **Portfolio Assistant:** Built-in interactive assistant that answers preset questions about my skills, projects, and contact information.
+- **Dark Mode:** Switch between light and dark themes.
+- **Responsive Design:** Optimized for desktop, tablet, and mobile devices.
+- **Smooth Navigation:** Easily navigate between different portfolio sections.
 
-Interactivity: Vanilla JavaScript (script.js, config.js, chatbot.js)
+## 🛠️ Tech Stack
 
-📂 Project Structure
-Plaintext
-├── index.html       # Main HTML markup file
-├── style.css        # Core stylesheet for the portfolio
-├── chatbot.css      # Styling rules for the AI chat section
-├── script.js        # Main application logic and interactivity
-├── config.js        # Configuration settings (API keys/endpoints)
-└── chatbot.js       # AI chat assistant functionality
-🚀 Getting Started
-To run or test this portfolio locally on your machine:
+| Technology | Purpose |
+|---|---|
+| HTML5 | Website structure |
+| CSS3 | Styling and responsive layouts |
+| JavaScript | Interactivity and functionality |
+| Lucide / Icons | Visual elements and icons |
+| Vercel | Website deployment |
+| Git & GitHub | Version control and project hosting |
 
-Clone or Download this repository to your local development environment.
+## 💡 Skills
 
-Ensure all related files (index.html, style.css, chatbot.css, script.js, config.js, chatbot.js, and your profile.jpg image) are in the same root directory.
+- C
+- C++
+- HTML5
+- CSS3
+- JavaScript
+- Python
 
-Open index.html directly in any modern web browser, or use a live server extension (such as Live Server in VS Code) for the best development experience.
+## 📂 Featured Projects
 
-📬 Contact Information
-Email: mrinalsaini216613@gmail.com
+### 1. Python Program Collection
+A collection of Python programming exercises focused on programming fundamentals and problem-solving.
 
-GitHub: mrinalsaini7
+**Technologies:** Python
+
+[View Project](https://github.com/mrinalsaini7/Python-Program-Collection)
+
+### 2. Code with AI Quiz
+An interactive quiz website designed to test programming knowledge through an engaging and user-friendly interface.
+
+**Technologies:** HTML, CSS, JavaScript
+
+[Live Demo](https://quiz-rouge-zeta.vercel.app/)
+
+### 3. Book Reading List Application
+A responsive web application that helps users organize books and track their reading progress through different statuses.
+
+**Technologies:** HTML, CSS, JavaScript
+
+[Live Demo](https://studentreadinglist-nine.vercel.app/)
+
+## 📁 Project Structure
+
+```text
+Portfolio/
+│
+├── index.html
+├── style.css
+├── script.js
+├── profile.jpg
+├── README.md
+└── Other project assets
+```
+
+## ⚙️ Run Locally
+
+Follow these steps to run the portfolio on your computer.
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/mrinalsaini7/Portfolio.git
+```
+
+**2. Navigate to the project directory**
+
+```bash
+cd Portfolio
+```
+
+**3. Open the project**
+
+Open `index.html` in your browser.
+
+For a better development experience, you can use the Live Server extension in Visual Studio Code.
+
+## 🌐 Deployment
+
+This portfolio is currently hosted on Vercel.
+
+You can also deploy it using GitHub Pages:
+
+1. Open your GitHub repository.
+2. Navigate to Settings.
+3. Select Pages.
+4. Under Build and deployment, select Deploy from a branch.
+5. Choose the `main` branch and `/ (root)` folder.
+6. Click Save.
+
+Your portfolio will be published using the GitHub Pages URL provided by GitHub.
+
+## 📬 Contact Me
+
+I'm always interested in learning, collaborating, and connecting with other developers.
+
+- **Name:** Mrinal Saini
+- **Email:** [mrinalsaini216613@gmail.com](mailto:mrinalsaini216613@gmail.com)
+- **GitHub:** [@mrinalsaini7](https://github.com/mrinalsaini7)
+- **Portfolio:** [Visit Website](https://portfolio-eight-pi-btvt1veq3d.vercel.app/)
+
+## ⭐ Show Your Support
+
+If you like my portfolio or find my projects interesting, please consider giving this repository a ⭐ on GitHub.
+
+---
+
+**Designed and Developed with ❤️ by Mrinal Saini**
+
+*Build • Learn • Improve* 🚀
